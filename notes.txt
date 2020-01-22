@@ -1,0 +1,20 @@
+Basic design workflow for building website
+
+1. Build the project
+    - creating the folder strucuture
+    - adding files
+    - connecting files
+
+2. Navbar
+    - 2 links and a name
+
+3. Portfolio item grid
+    -images 
+    - titles
+    - descriptions
+    - Animations, where i implement JS
+
+4.  About Page
+- images
+- split column layout
+- content
