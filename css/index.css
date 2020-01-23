@@ -48,6 +48,7 @@ table {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 7%;
 }
 
 nav{
@@ -61,6 +62,7 @@ nav{
     justify-content: flex-start;
     border-bottom: 0px solid transparent;
     transition: border-bottom 0.5s ease-in;
+    margin-bottom: 3%;
 }
 
 .links a{
@@ -77,4 +79,59 @@ nav{
 }
 .links a:hover{
     color: black;
+}
+
+/* portfolio styles */
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrap{
+    position: relative;
+}
+
+.portfolio-img-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    /* padding-right: 0px;
+    padding-left: 10px; */
+    cursor: pointer;
+}
+
+.logo-wrapper img{
+    margin-bottom: 20px;
+    width: 90px;
+}
+
+.img-text-wrapper .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+    padding: 0 10px
+
+}
+
+.img-text-wrapper:hover .subtitle{
+    font-weight: 300;
+    color: lightseagreen;
+}
+
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
 }
